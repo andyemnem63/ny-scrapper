@@ -1,0 +1,28 @@
+{
+  "name": "ny-scrapper",
+  "version": "1.0.0",
+  "description": "In this assignment, you'll create a web app that lets users leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyemnem63/ny-scrapper.git"
+  },
+  "author": "Andy Em",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyemnem63/ny-scrapper/issues"
+  },
+  "homepage": "https://github.com/andyemnem63/ny-scrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "request": "^2.69.0"
+  }
+}
